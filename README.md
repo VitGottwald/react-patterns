@@ -52,6 +52,10 @@ Class component, with, or without an internal state (managed by setState) may or
 
 A pure component may only read data from its props, its internal state, and external data that does not change over time.
 
+## Higher Order Components (HOC)
+
+are beutifully explained in the react [documentation](https://reactjs.org/docs/higher-order-components.html)
+
 ## Render props
 
 Converting an imperative API to a declarative one by Michael Jackson [React London Meetup January 2016, Michael Jackson](https://youtu.be/dn5gxx-e8cE) 
