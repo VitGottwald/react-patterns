@@ -16,7 +16,7 @@ React was created by Facebook to solve a seemingly simple task - to make sure yo
 
 The first video I saw about react was [Hacker Way: Rethinking Web App Development at Facebook](https://youtu.be/nYkdrAPrdcw). If you are new to react I would highly recommend you to watch the part presented by Pete Hunt, starting at [24:18](https://youtu.be/nYkdrAPrdcw?t=1458).
 
-# Component patterns
+# Component Patterns
 
 React is all about components. And components are all about reuse. One of the methods to reduce repetition and achieve a greater reuse is a _separation of concerns_. Over time various people have identified repeating patterns and given them a name.
 
