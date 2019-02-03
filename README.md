@@ -54,7 +54,9 @@ A pure component may only read data from its props, its internal state, and exte
 
 ## Higher Order Components (HOC)
 
-are very well explained in the react [documentation](https://reactjs.org/docs/higher-order-components.html)
+Are a pattern in react for reusing component logic. They are very well explained in the react [documentation](https://reactjs.org/docs/higher-order-components.html).
+
+## Context providers
 
 ## Render props
 
