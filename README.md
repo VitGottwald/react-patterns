@@ -46,7 +46,7 @@ Functional component (NOT using hooks) may or may not be pure. This depends on w
 
 Because react is calling components during render we do not have control when a it is called. Hence creating a functional component that is not pure does not seem to make sense because we could be getting random results at various render calls and our UI would become unpredictable. There is one exeption to this. When we call functions that react expects us to call during render. Such calls can be managed by react and an example of this is react hooks.
 
-Class component, with, or without an internal state (managed by setState) may or may not be pure as well. Again, it depend on whether the component reads data from a source that may change over time, other that its props.
+Class component, with, or without an internal state (managed by setState) may or may not be pure as well. Again, it depends on whether the component reads data from a source that may change over time, other that its props.
 
 A pure component may only read data from its props, its internal state, and external data that does not change over time.
 
