@@ -1,5 +1,7 @@
 # The Small React Patterns Overview
 
+> Simplicity is prerequisite for reliability. [Edsger W. Dijkstra](https://en.wikiquote.org/wiki/Edsger_W._Dijkstra)
+
 [React](https://reactjs.org/) is a javascript library for building user interfaces. 
 
 This is my personal list of original sources to use when asked by people new to react where to go to learn about a particular pattern.
