@@ -54,7 +54,7 @@ A pure component may only read data from its props, its internal state, and exte
 
 ## Higher Order Components (HOC)
 
-are beutifully explained in the react [documentation](https://reactjs.org/docs/higher-order-components.html)
+are very well explained in the react [documentation](https://reactjs.org/docs/higher-order-components.html)
 
 ## Render props
 
