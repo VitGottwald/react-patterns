@@ -66,4 +66,4 @@ Converting an imperative API to a declarative one by Michael Jackson [React Lond
 
 # JSX
 
-Separate concerns, not technologies [Pete Hunt at JSConfEU 2013](https://youtu.be/x7cQ3mrcKaY)
+Separate concerns, not technologies [Pete Hunt at JSConfEU 2013](https://youtu.be/x7cQ3mrcKaY?t=605)
