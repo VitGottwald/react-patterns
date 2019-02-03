@@ -25,5 +25,6 @@ React is all about components. And components are all about reuse. One of the me
 The first pattern we come across that separates the concerns of
 1. **fetching data** - Container
 2. **rendering user interface** - Markup
-originally described in a [medium article](https://link.medium.com/fwP1izSYGT)
+
+were originally described in [this medium article](https://link.medium.com/fwP1izSYGT)
 
