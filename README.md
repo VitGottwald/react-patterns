@@ -26,10 +26,28 @@ The first pattern we come across that separates the concerns of
 1. **fetching data**
 2. **rendering user interface**
 
-Fetching data is the responsibility of *Container* components and rendering user interface is the responsibility of *Markup* components.
-
-this is nicely described in [this article](https://link.medium.com/fwP1izSYGT).
+Fetching data is the responsibility of *Container* components and rendering user interface is the responsibility of *Markup* components. It is nicely described in [this article](https://link.medium.com/fwP1izSYGT).
 
 ## Container/Presentational components
 
 This is a generalization of the previous pattern, described by Dan Abramov in [this article](https://link.medium.com/PHW833Q6GT).
+
+## Functional/Class Components
+
+Components can be written either as regular functions or as Classes. Functions are thhe most staightforward way to create a component. But they have some limitations. This has to do with performing side effects
+
+## Stateless/Stateful Components
+
+## Pure/Not Pure components
+
+*Pure component* is a component that does not depend on any externally changing data, except the propeties it receives, and its internal state (managed by setState calls). This definition requires a little bit more elaboration.
+
+Functional component (NOT using hooks) may or may not be pure. This depends on whether it reads data from a source, that may change over time, other that its props (e.g. window, or a another variable declared outside its function body). 
+
+Because react is calling components during render we do not have control when a it is called. Hence creating a functional component that is not pure does not seem to make sense because we could be getting random results at various render calls and our UI would become unpredictable. There is one exeption to this. When we call functions that react expects us to call during render. Such calls can be managed by react and an example of this is react hooks.
+
+Class component, with, or without an internal state (managed by setState) may or may not be pure as well. Again, it depend on whether the component reads data from a source that may change over time, other that its props.
+
+A pure component may only read data from its props, its internal state, and external data that does not change over time.
+
+
