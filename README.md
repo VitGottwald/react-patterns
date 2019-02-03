@@ -58,6 +58,8 @@ Are a pattern in react for reusing component logic. They are very well explained
 
 ## Context providers
 
+like <AppoloProvider></ApolloProvider>
+
 ## Render props
 
 Converting an imperative API to a declarative one by Michael Jackson [React London Meetup January 2016, Michael Jackson](https://youtu.be/dn5gxx-e8cE) 
