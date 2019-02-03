@@ -24,9 +24,12 @@ React is all about components. And components are all about reuse. One of the me
 
 The first pattern we come across that separates the concerns of
 1. **fetching data**
-2. **rendering user interface** - performed by *Markup* components
+2. **rendering user interface**
 
 Fetching data is the responsibility of *Container* components and rendering user interface is the responsibility of *Markup* components.
 
-this is nicely described in [this medium article](https://link.medium.com/fwP1izSYGT).
+this is nicely described in [this article](https://link.medium.com/fwP1izSYGT).
 
+### Container/Presentational components
+
+This is a generalization of the previous pattern, described by Dan Abramov in [this article](https://link.medium.com/PHW833Q6GT).
