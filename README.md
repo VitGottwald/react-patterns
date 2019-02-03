@@ -30,6 +30,6 @@ Fetching data is the responsibility of *Container* components and rendering user
 
 this is nicely described in [this article](https://link.medium.com/fwP1izSYGT).
 
-### Container/Presentational components
+## Container/Presentational components
 
 This is a generalization of the previous pattern, described by Dan Abramov in [this article](https://link.medium.com/PHW833Q6GT).
