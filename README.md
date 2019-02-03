@@ -18,7 +18,7 @@ The first video I saw about react was [Hacker Way: Rethinking Web App Developmen
 
 # Component Patterns
 
-React is all about components. And components are all about reuse. One of the methods to reduce repetition and achieve a greater reuse is a _separation of concerns_. Over time various people have identified repeating patterns and given them a name.
+React is all about components. And components are all about reuse. One of the methods to reduce repetition and achieve a greater reuse is a _separation of concerns_. Over time various repeating patterns have been identified and given a name.
 
 ## Container/Markup components
 
