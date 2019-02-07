@@ -1,6 +1,6 @@
 # The Small React Patterns Overview
 
-* UNDER CONSTRUCTION *
+**UNDER CONSTRUCTION**
 
 > Simplicity is prerequisite for reliability. [Edsger W. Dijkstra](https://en.wikiquote.org/wiki/Edsger_W._Dijkstra)
 
