@@ -1,5 +1,7 @@
 # The Small React Patterns Overview
 
+** UNDER CONSTRUCTION **
+
 > Simplicity is prerequisite for reliability. [Edsger W. Dijkstra](https://en.wikiquote.org/wiki/Edsger_W._Dijkstra)
 
 [React](https://reactjs.org/) is a javascript library for building user interfaces. 
